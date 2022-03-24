@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "test": "jest",
-    "test:staged": "jest --bail --findRelatedTests",
+    "test:staged": "jest --bail --findRelatedTests --coverage",
     "test:watch": "jest --watch --coverage=false",
     "prepare": "husky install",
     "fmt": "prettier --write ./src",
